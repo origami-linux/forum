@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+#html, body
+{
+    font-family: 'Montserrat', sans-serif;
+    background: #fefefe;
+}
+
+.bar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #dadada;
+    border-bottom: 2px solid #a0a0a0;
+    width: 100%;
+    height: 60px;
+}
+
+#menubtn
+{
+    position: fixed;
+    top: 2px;
+    left: 2px;
+}
+
+#pfp
+{
+    position: fixed;
+    top: 70px;
+    border-radius: 50%;
+}
+
+#uname
+{
+    position: fixed;
+    top: 70px;
+    left: 125px;
+}
+
+#pname
+{
+    position: fixed;
+    top: 108px;
+    left: 138px;
+}
+
+#quote
+{
+    position: fixed;
+    top: 140px;
+    left: 125px;
+}
+
+#desc
+{
+    position: fixed;
+    top: 80px;
+    left: 300px;
+    width: 700px;
+    height: 400px;
+    background: #efefef;
+    border-left: 6px solid #efefef;
+    border-right: 6px solid #efefef;
+    border-radius: 10px;
+    font-weight: bold;
+    overflow-y: scroll;
+}
